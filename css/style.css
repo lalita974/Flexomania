@@ -32,12 +32,25 @@ h2 {
 }
 
 .exercice3 ul li {
+  display: flex;
   flex: 1;
-  align-content: center;
+  justify-content: center;
 }
 
 /* EXERCICE 4 */
+.exercice4 ul {
+  display: flex;
+}
 
+.exercice4 ul li {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+}
+
+.exercice4 ul li:nth-child(2) {
+  flex: 4;
+}
 /* EXERCICE 5 */
 
 /* EXERCICE 6 */
