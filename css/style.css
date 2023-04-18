@@ -45,14 +45,39 @@ h2 {
 .exercice4 ul li {
   display: flex;
   flex: 1;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .exercice4 ul li:nth-child(2) {
   flex: 4;
+  margin: 0 15px;
 }
 /* EXERCICE 5 */
+.exercice5 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.exercice5 ul {
+  display: flex;
+}
+
+.exercice5 div {
+  display: flex;
+  justify-content: flex-start;
+}
 
 /* EXERCICE 6 */
+.exercice6 {
+  display: flex;
+  justify-content: center;
+}
 
 /* EXERCICE 7 */
+.exercice7 ul {
+  display: flex;
+  justify-content: space-around;
+}
+.exercice7 li {
+  border-radius: 50%;
+}
